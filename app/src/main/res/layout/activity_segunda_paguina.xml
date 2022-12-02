@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SegundaPaguina"
+    android:background="@color/teal_700">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Nombre"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn1pg3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="BuscaWeb"
+            android:textSize="20dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn2pg3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="VistaMApa"
+            android:textSize="20dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Youtube"
+            android:textSize="20dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="ComandoVoz"
+            android:textSize="20dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="VistaTelefono"
+            android:textSize="20dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="VistaContactos"
+            android:textSize="20dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnpagina3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Siguientepagina"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
